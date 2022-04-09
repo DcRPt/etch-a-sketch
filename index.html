@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Etch-a-Sketch Game</title>
+    <meta name="author" content="Thomas McErlean">
+    <meta name="description" content="A simple etch-a-sketch browser game, built using Vanilla JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="title"><h1>Etch-a-Sketch</h1></div>
+      <div class="container" id="btncontainer">
+        <button class="featurebutton" id="resetbutton" onclick="reSizeGrid()">Resize</button>
+        <button class="featurebutton" id="blackbutton" data-color="black">Black</button>
+        <button class="featurebutton" id="rainbowbutton" data-color="rainbow">Rainbow</button>
+        <button class="featurebutton" id="eraserbutton" data-color="eraser">Eraser</button>
+      </div>
+      <div class="container" id="maincontainer"></div>
+      <div class="footer">Copyright © Daniel Rodrigues 2022</div>
+    <script src="script.js"></script>
+  </body>
+</html>
